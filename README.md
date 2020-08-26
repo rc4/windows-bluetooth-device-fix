@@ -2,4 +2,4 @@
 
 Fixes Win10 bluetooth headset issues.
 
-Compile with: `gcc bt.c -o bt.exe -O2 -lbthprops`
+Compile with: `gcc btfix.c -o btfix.exe -O2 -lbthprops`
