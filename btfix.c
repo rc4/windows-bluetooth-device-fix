@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEVICENAME "Galaxy Buds+ (5187)"
+#define DEVICENAME "Galaxy Buds+ (5187)" /* TODO: REPLACE THIS WITH YOUR DEVICE NAME */
 #define PRINT_GUID(x) printf("{%08lX-%04hX-%04hX-%02hhX%02hhX-%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX}\n", \
   x.Data1, x.Data2, x.Data3, \
   x.Data4[0], x.Data4[1], x.Data4[2], x.Data4[3], \
